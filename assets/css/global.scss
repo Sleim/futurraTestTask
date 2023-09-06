@@ -1,0 +1,17 @@
+* {
+  font-family: 'Proxima Nova', serif;
+}
+html, body, .holder {
+  min-height: 100vh;
+}
+.text {
+  &-orange {
+    color: $orange;
+  }
+  &-blue {
+    color: $blue;
+  }
+  &-blue-light {
+    color: $light-blue;
+  }
+}
